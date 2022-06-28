@@ -23,6 +23,11 @@ install truffle-assertions
 npm install --save truffle-assertions
 ```
 
+## Compile smart contract
+```cmd
+truffle compile
+```
+
 ## Run truffle test environment
 ```cmd
 truffle develop
@@ -43,3 +48,10 @@ should edit config #[truffle-config.js](truffle-config.js) in networks:developme
 ```cmd
 truffle test
 ```
+
+## Deploy smart contract to Ganache
+```cmd
+truffle migrate --network development
+```
+
+truffle console --network development
